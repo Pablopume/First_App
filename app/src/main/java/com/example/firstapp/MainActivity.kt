@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
             if (!editText.text.isNullOrEmpty()) {
                 Toast.makeText(this, editText.text, Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(this, "El texto está vacío", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, R.string.novalido, Toast.LENGTH_SHORT).show()
             }
         }
     }

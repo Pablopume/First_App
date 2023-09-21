@@ -4,4 +4,5 @@
     <string name="pumington">PUMINGTON</string>
     <string name="click_aqu">Click aquí</string>
     <string name="escriba_algo">Escriba algo</string>
+    <string name="novalido">No has escrito ningún texto.</string>
 </resources>
