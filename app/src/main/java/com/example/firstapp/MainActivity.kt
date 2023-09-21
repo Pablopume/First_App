@@ -10,8 +10,8 @@ import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 
 class MainActivity : AppCompatActivity() {
-    lateinit var editText: TextInputEditText
-    lateinit var buttonOut: Button
+    private lateinit var editText: TextInputEditText
+    private lateinit var buttonOut: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
